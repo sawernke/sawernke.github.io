@@ -297,3 +297,13 @@ span.edit-link {
     padding: 5px;
 	}
 }
+/* --- static-site overrides (build_site.py) --- */
+/* Front page: the theme's two-column floats left the title flush with the
+   wrap edge while the (dropped) right-floated content sat 10px further in.
+   Stack both full-width so the title aligns with the body text. */
+.twentyseventeen-front-page .entry-header,
+.twentyseventeen-front-page .entry-content {
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
