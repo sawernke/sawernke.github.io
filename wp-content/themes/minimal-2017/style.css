@@ -307,3 +307,13 @@ span.edit-link {
     width: 100% !important;
     max-width: 100% !important;
 }
+
+/* Captions, site-wide: italic, left-justified, flush with the image's left
+   edge (overrides the centered, width-limited block-library defaults). */
+.entry-content figure figcaption,
+.entry-content .wp-block-image figcaption {
+    font-style: italic !important;
+    text-align: left !important;
+    margin-inline: 0 !important;
+    max-width: none !important;
+}
